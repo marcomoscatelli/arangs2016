@@ -1,15 +1,3 @@
-ifdef::env-github[image::diagram-classes.png[Diagram classes]]
-ifndef::env-github[]
-[plantuml,diagram-classes,png]
-class BlockProcessor
-class DiagramBlock
-class DitaaBlock
-class PlantUmlBlock
-BlockProcessor <|-- DiagramBlock
-DiagramBlock <|-- DitaaBlock
-DiagramBlock <|-- PlantUmlBlock
-endif:[]
-
 ![GTPB](http://gtpb.igc.gulbenkian.pt/bicourses/images/GTPB2015logo.png "GTPB")
 
 # ARANGS 2016
